@@ -148,6 +148,17 @@ body {
     white-space: normal;
     text-align: center;
   }
+
+  .rodape_sobre{
+    text-align: center;
+    color: var(--cor-terciaria);
+    background-color: #46b513;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.94rem;
+    font-weight: 400;
+    bottom: 0px
+  }
 }
 
 .apresentacao__links__navegacao:hover {
@@ -193,6 +204,20 @@ img:hover {
   bottom: 0px
 }
 
+.rodape_sobre{
+  position: fixed;
+  bottom: 0; /* gruda no fundo da página */
+  left: 0;
+  width: 100%; /* ocupa toda a largura */
+  text-align: center;
+  color: var(--cor-terciaria);
+  background-color: #46b513;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.94rem;
+  font-weight: 400;
+  bottom: 0px
+}
 .destaque-titulo__rodape{
     color: var(--cor-primaria);
 }
